@@ -2,9 +2,7 @@
   "name": "assignment_two",
   "version": "1.0.0",
   "description": "\"Assignment Two\"",
-  "main": "App.js",
   "scripts": {
-    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {
