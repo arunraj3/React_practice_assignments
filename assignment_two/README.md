@@ -71,8 +71,25 @@ Assignment Two
     Its basic philoshophy is that "Don't and the files which can be regenerated" for example : "node_modules" , ".parcel-cache" etc.
     <br/>
 
-9.  Why i should not modify 'package-lock.json" ? <br/>
-    The package-lock.json file is not designed to be manually edited. It's a generated file that tracks the entire tree of dependencies and the exact version of each dependency. 
+9.  Why i should not modify 'package-lock.json" ?
     <br/>
-
+    The package-lock.json file is not designed to be manually edited. It's a generated file that tracks the entire tree of dependencies and the exact version of each dependency.
+    <br/>
     You should not modify package-lock.json unless you are actively updating the packages required. The file ensures that the same node_modules tree is generated every time npm install is run.
+    <br/>
+10. What is node_modules ? Is it a good idea to push that on git?
+    node modules are basically the packages which are installed based on the dependencies so due to the transitive dependencies more number of packages which respectively dependent on are also installed into the project in a bundle called as node_modules<br/>
+    (or)
+    <br/>
+    The node_modules folder contains every installed dependency for our project.
+    <br/>
+    No, It is not a good idea to push because it is very large file but it can be generated using npm so it is basically added to .gitignore file.
+    <br/>
+11. What is "dist" folder?
+    Basically consist of minimized version of the source code, i.e. the source code present in dist is the production ready code.
+    <br/>
+12. What is "browserlists"?
+    This is basically the dependency which will be added in package.json which represents which browser and how many versions of it should the project should support.
+
+
+

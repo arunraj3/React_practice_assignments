@@ -1,0 +1,32 @@
+{
+  "name": "assignment_two",
+  "version": "1.0.0",
+  "description": "\"Assignment Two\"",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunraj3/React_practice_assignments.git#master"
+  },
+  "keywords": [
+    "\"Assignment",
+    "Two",
+    "for",
+    "React\""
+  ],
+  "author": "Arun raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunraj3/React_practice_assignments/issues"
+  },
+  "homepage": "https://github.com/arunraj3/React_practice_assignments/tree/master#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
