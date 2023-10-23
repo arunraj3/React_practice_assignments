@@ -38,8 +38,7 @@ Theory Questions :
    React is called as "React" because of its core feature, which is its ability to "react" or respond dynamically to changes in data.
    <br/>
 
-5. what is crossorigin in script tag ?
-   <br/>  
+5. what is crossorigin in script tag ?<br/>  
     The crossorigin attribute sets the network request to an HTTP CORS Request.
    <br/>
 6. What is difference between React and ReactDOM ?
@@ -67,6 +66,7 @@ Theory Questions :
    <br/>
 
 9. Building Hello world program using
-   a. Using just HTML
-   b. Using JS to manipulate the DOM
-   c. Using React (using CDN links)
+   <br/>
+   a. Using just HTML<br/>
+   b. Using JS to manipulate the DOM<br/>
+   c. Using React (using CDN links)<br/>
