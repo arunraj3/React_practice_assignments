@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  img{
+    max-width: 40px;
+  }
+ 
+.header{    
+    display: flex;
+    border: 1px black solid;
+}
+
+.search-bar{
+    margin: 10px 0 0 80%;
+}
